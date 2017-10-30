@@ -1,0 +1,50 @@
+.resposta{
+  background-color: red;
+  position: absolute;
+  opacity: 0.0;
+  font-family: "Times New Roman";
+  text-align: center;
+  padding-top: 50px;
+  margin-left: 50px;
+  color: white;
+}
+.success {
+  background-color: #4CAF50;
+}
+.success:hover {
+  background-color: #46a049;
+}
+.default {
+  background-color: #e7e7e7; color: black;
+  }
+.default:hover {
+  background: #ddd;
+}
+.bts{
+  margin-left: 100px;
+  padding-top: 20px;
+}
+.fonte{
+  font-family: "Times New Roman";
+  font-size: 30px;
+  text-align: center;
+
+}
+.pergunta{
+  padding-top: 20px;
+  font-family: "Times New Roman";
+  font-size: 10px;
+
+}
+body{
+  background-color: lightgrey;
+}
+.info {background-color: #2196F3; }
+.info:hover {background: white;}
+.btn {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}

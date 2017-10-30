@@ -1,0 +1,80 @@
+.baner{
+   position: relative;
+   width: 70%;
+   height: 40%;
+   margin-top: 5%;
+}
+.menu{
+   margin-left: 380px;
+}
+body{
+  background-color: #010101;
+   position: relative;
+}
+.fonte{
+   font-family: "Times New Roman";
+   font-size: 20px;
+   margin-top: 100px;
+   position: "absolute";
+   margin-left: 60px;
+   text-align: justify;
+   color: white;
+}
+.punho{
+  margin-left: 5%;
+  margin-top: 20%;
+}
+.PeLtxt{
+  text-align: left;
+}
+.jtxt{
+  text-align: right;
+}
+.jessica{
+  margin-right: 2%;
+  margin-top: 20%;
+}
+.luke{
+  margin-left: 5%;
+  margin-top: 17%;
+}
+.cronologia{
+  width: 90%;
+  height: 90%;
+  margin-left: 18%;
+}
+.affix {
+  top:0px;
+  width: 100%;
+  z-index: 9999 !important;
+ }
+ .navbar {
+     margin-bottom: 10px;
+ }
+ .affix ~ .container-fluid {
+     position: relative;
+     top: 10px;
+  }
+     #section1, #section2, #section3, #section4 {
+         margin-left: 150px;
+         font-family: "Times New Roman";
+         font-size: auto;
+         text-align: justify;
+         color: white;
+         margin-left: 10px;
+         padding-top:110px;
+         height:auto;
+         margin-top: auto;
+
+     }
+.gif{
+  margin-top: 5%;
+   width: 60%;
+}
+.fonteCuriosidade{
+  font-family: "Times New Roman";
+  font-size: 15px;
+  margin-left: 60px;
+  color: red;
+  padding-top: 10px
+}

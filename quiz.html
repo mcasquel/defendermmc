@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<head>
+  <title>Defenders</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/jquiz.js"></script>
+  <script src="js/jqQuiz.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/quiz.css">
+</head>
+
+
+
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="p1.html"><img src="img/logo1.png" width="100px"></a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+        <li><a href="biografia.html">Biografia dos Personagens</a></li>
+        <li><a href="cronologia.html">Cronologia</a></li>
+        <li><a href="curiosidade.html">Curiosidades</a></li>
+        <li class="active"><a>Quiz</a></li>
+      </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container">
+
+
+<div class="fonte">
+  <p><b>Quer ver com qual personagen dos Defensores você se parece? <br> Basta selecionar a resposta com que voaê mais se indentifica</b></p>
+</div>
+  <div class="pregunta" id="1">
+  	<p>Onde você gostaria de morar</p>
+  	 	<div>
+  	 	<input type="radio" id="p1">
+  	 	<label >Em um Mosteiro com monges ninjas</label>
+  	 	</div>
+  		<div>
+  		<input type="radio" id="j1">
+  		<label>Não importa, desde que tenha uma cama</label>
+  		</div>
+      <div>
+  		<input type="radio" id="d1">
+  		<label >Em um lugar onde beleza nao e o forte mas que tenha conforto</label>
+  		</div>
+  		<div>
+  		<input type="radio" id="luke1">
+  	 	<label >Num bairro mais precario, no estilo "todo mundo odeia o chris"</label>
+  		</div>
+  	</div>
+
+
+    <center><div class="resposta"id="psg"><p id="personagem"></p></div></center>
+
+  <div class="pregunta" id="2">
+  	<p>Você se considera uma pessoa:</p>
+  	<div>
+  		<input type="radio" id="l2">
+  		<label for="Madrid">Calma</label>
+  	</div>
+  	<div>
+  		<input type="radio" id="j2">
+  		<label for="Paris">Pavil curto</label>
+  	</div>
+    <div>
+  		<input type="radio" id="p2">
+  		<label for="Paris">Que agi por impulso</label>
+  	</div>
+    <div>
+  		<input type="radio" id="d2">
+  		<label for="Paris">Calculista</label>
+  	</div>
+  	</div>
+
+
+  <div class="pregunta" id="3" ><p>Qual super poder voê gostaria de ter?</p>
+
+  	<div>
+  		<input id="p3" type="radio">
+  		<label for="Sofia">Super força</label>
+  	</div>
+  	<div>
+  		<input type="radio" id="j3">
+  		<label for="Varsovia">Super pulo</label>
+  	</div>
+  	<div>
+  		<input type="radio" id="d3">
+   		<label for="Zagreb">Super sentidos sensoriais</label>
+  	</div>
+  	<div>
+  		<input type="radio" id="l3">
+   		<label for="Sarajevo">Pele impenetravel</label>
+  	</div>
+  	</div>
+  </div>
+
+<div class="bts">
+  <button href="#personagem" class="btn success"onclick="ver()" id="btn"><b>Finalizar</b></button>
+  <button class="btn default"><a href="quiz.html"><b>Refazer  teste</b></a></button>
+  <button class="btn info" id="btav" ><a  href="formulario.html">Avalie este teste</a></button>
+
+</div>
+
+
+
+
+
+</html>
